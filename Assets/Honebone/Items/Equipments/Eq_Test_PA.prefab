@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8313083597182299096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274222725523604865}
+  - component: {fileID: 8022256561471819742}
+  m_Layer: 0
+  m_Name: Eq_Test_PA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274222725523604865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8313083597182299096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8022256561471819742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8313083597182299096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d473cc4cfe543b4ba8ebfbb8ee21db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PAName: "test\u88C5\u5099"
+  PAInfo: "\u653B\u6483\u6642\u3001HP\u30925\u56DE\u5FA9\n\u6226\u95D8\u958B\u59CB\u6642\u3001\u81EA\u5206\u306B\u76F2\u76EE2\u4ED8\u4E0E\n3\u56DE\u653B\u6483\u3059\u308B\u3054\u3068\u306B\u51FA\u8840\u3092\u6D88\u53BB"
+  exHP: 0
+  exATK: 1
+  action:
+    owner: {fileID: 0}
+    target: {fileID: 0}
+    attack: 0
+    DMG: 0
+    heal: 5
+    applyStE: []
+    removeStE: []
+  bleed:
+    owner: {fileID: 0}
+    target: {fileID: 0}
+    attack: 0
+    DMG: 0
+    heal: 0
+    applyStE:
+    - StE: {fileID: 2510622262790149085, guid: 14ab0718acf084b4b907936ac46fb402, type: 3}
+      amount: 2
+    removeStE: []
+  remove:
+    owner: {fileID: 0}
+    target: {fileID: 0}
+    attack: 0
+    DMG: 0
+    heal: 0
+    applyStE: []
+    removeStE:
+    - {fileID: 2510622262790149085, guid: 596ed89f1194e6e4f8e7446c8c057037, type: 3}

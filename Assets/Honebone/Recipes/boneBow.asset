@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1e597e692e1e8e479a175cbb3b0c042, type: 3}
+  m_Name: boneBow
+  m_EditorClassIdentifier: 
+  material_1: {fileID: 6007695563130763707, guid: 7ba3050b606d9594f9f9837d04d39f51, type: 3}
+  material_2: {fileID: 369480470792548374, guid: d7bccfe48e747c84ba193c0ef5115e40, type: 3}
+  product: {fileID: 7692040964403234684, guid: 4546ca72c2fd65a44bcb4865ffab52a0, type: 3}

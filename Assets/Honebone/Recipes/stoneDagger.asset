@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1e597e692e1e8e479a175cbb3b0c042, type: 3}
+  m_Name: stoneDagger
+  m_EditorClassIdentifier: 
+  material_1: {fileID: 7413163132113757934, guid: beb82275093114345a5c03317269f833, type: 3}
+  material_2: {fileID: 7814968721534944545, guid: e698db7a2ad3bbe40b0a42fa754ba874, type: 3}
+  product: {fileID: 7123124004538772736, guid: 6a21b464dbb0ba94db70f1a7dc930323, type: 3}
